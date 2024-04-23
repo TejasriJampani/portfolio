@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 99;
+}
+
+.nav__content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color:  #a855f7;
+  transition: 0.3s;
+}
+nav .logo a:hover {
+  color:#9333ea;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: #1f2937;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: #ca8a04;
+  border-bottom-color: #ca8a04;
+  color: #ca8a04;
+}
+
+.section {
+  background-color: #faf5ff;
+}
+
+.section__container {
+  min-height: 75vh;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  padding-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.title span {
+  font-weight: 600;
+}
+
+.description {
+  line-height: 1.5rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.action__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid  #a855f7;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.github {
+  color:  #a855f7;
+}
+
+.github:hover {
+  background-color: #9333ea;
+}
+
+.linkedin {
+  color: #a855f7;
+}
+
+.linkedin:hover {
+  background-color: #9333ea;
+}
+        table,th,td,tr
+        {
+            padding : 15px;
+            text-align : center;
+        }
+        .full
+{
+    background-color: white;
+    line-height: 24px;
+    min-width: 310px;
+}
+h2
+{
+  background-color: #a855f7;
+  color: #ffffff;
+    border: 3px solid ;
+    Margin: 20px 20px 20px 1px;
+    text-align: center;
+}
+h4
+{
+    text-align: left;
+    Margin: 10px 800px 10px 10px;
+   
+}
+table
+{
+    padding-right: 34%;
+    Margin: 20px 20px 20px 18px;
+    border: 1px;
+}
+.resumee
+{
+  border: 2px solid black;
+  padding-left: 40px;
+}
+#contact
+{
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
